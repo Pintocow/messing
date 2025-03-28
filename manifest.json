@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "testy",
+    "version": "1.0",
+  
+    "description": "counts clicks and has a reload button",
+    "icons": {
+      "48": "icons/beasts-48.png"
+    },
+  
+    "permissions": ["activeTab"],
+  
+    "browser_action": {
+      "default_icon": "icons/beasts-32.png",
+      "default_title": "testy",
+      "default_popup": "popup.html"
+    }
+  }
+  
